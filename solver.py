@@ -168,8 +168,7 @@ def solve(df):
 
     unsolved = True
     start = True
-    iterations = 0
-
+    
     while unsolved:
         '''USE FOR LOOP FOR TESTING'''
 
@@ -208,11 +207,7 @@ def solve(df):
         if unknowns == []:
             # print('IN')
             unsolved = False
-
-        if iterations > 500:
-            print("FAILED")
-
-        iterations += 1
+            
 
 '''
 solve(df)
